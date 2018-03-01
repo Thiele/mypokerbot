@@ -16,7 +16,6 @@ class FishPlayer(BasePokerPlayer):  # Do not forget to make parent class as "Bas
         pass
 
     def receive_street_start_message(self, street, round_state):
-        print("street!")
         pass
 
     def receive_game_update_message(self, action, round_state):
